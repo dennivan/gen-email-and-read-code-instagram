@@ -1,20 +1,16 @@
 # **Hướng dẫn cài đặt và sử dụng** 🚀
 
-## **Cài đặt** 🛠️
+## **Chạy từ source code 🛠️**
 
-Đầu tiên, bạn cần tải và cài đặt NodeJS tại [đây](https://nodejs.org/dist/v20.11.0/node-v20.11.0-x64.msi) 📥
+- Đầu tiên, bạn cần tải và cài đặt NodeJS tại [đây](https://nodejs.org/dist/v20.11.0/node-v20.11.0-x64.msi)
 
-Tiếp theo, cài đặt thư viện bằng lệnh sau:
+- Tiếp theo, cài đặt thư viện bằng lệnh sau:
 
-```bash
-npm install @cemalgnlts/mailjs
-```
+   ```bash
+   npm install @cemalgnlts/mailjs
+   ```
 
-## **Sử dụng** 💻
-
-### **Chạy từ source code**
-
-- Đầu tiên, bạn cần clone repository về máy tính bằng lệnh sau hoặc tải về từ [đây](https://codeload.github.com/dennivan/gen-email-and-read-code-instagram/zip/refs/heads/main) 📥
+- Clone repository về máy tính bằng lệnh sau hoặc tải về từ [đây](https://codeload.github.com/dennivan/gen-email-and-read-code-instagram/zip/refs/heads/main)
 
    ```bash
    git clone https://github.com/dennivan/gen-email-and-read-code-instagram.git
@@ -32,4 +28,12 @@ npm install @cemalgnlts/mailjs
    node readCode.js
    ```
 
-### **[Tải xuống bản executable](https://github.com/dennivan/gen-email-and-read-code-instagram/releases/)**
+## **Tải xuống bản executable 📦**
+
+- **Get Random 6 Email**:
+  - Phiên bản cho macOS: [Tải xuống](https://github.com/dennivan/gen-email-and-read-code-instagram/releases/download/v1.0.0/getEmail-macos)
+  - Phiên bản cho Windows: [Tải xuống](https://github.com/dennivan/gen-email-and-read-code-instagram/releases/download/v1.0.0/getEmail-win.exe)
+
+- **Đọc Code Instagram**:
+  - Phiên bản cho macOS: [Tải xuống](https://github.com/dennivan/gen-email-and-read-code-instagram/releases/download/v1.0.0/readCode-macos)
+  - Phiên bản cho Windows: [Tải xuống](https://github.com/dennivan/gen-email-and-read-code-instagram/releases/download/v1.0.0/readCode-win.exe)
