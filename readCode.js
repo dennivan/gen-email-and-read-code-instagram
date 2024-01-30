@@ -5,6 +5,7 @@ const fs = require('fs');
 const fileName = 'accounts.json';
 let userEmail;
 let userPassword;
+
 async function main() {
     const loginResponse = await mailjs.login(userEmail, userPassword);
     const messages = await mailjs.getMessages();
@@ -20,16 +21,19 @@ async function main() {
             console.log('Code:', confirmationCode);
             mailjs.deleteMessage(firstMessageId);
         } else {
-            console.log('Mail:', userEmail);
-            console.log('Chua nhan duoc ma.');
+            console.log('Mail:', userEmail, 'Chua nhan duoc ma.');
         }
     } else {
-        console.log('Mail:', userEmail);
-        console.log('Email da het thoi gian.');
+        console.log('Khong co tin nhan nao nhan duoc.');
     }
 }
 
 fs.readFile(fileName, 'utf8', (err, data) => {
+    if (err) {
+        console.log('Vui long getEmail truoc!');
+        return;
+    }
+
     const accounts = JSON.parse(data);
     accounts.forEach((account, index) => {
         userEmail = account.username;

@@ -9,5 +9,8 @@
   "scripts": {
     "getMail": "node getEmail.js",
     "readCode": "node readCode.js"
+  },
+  "dependencies": {
+    "@cemalgnlts/mailjs": "^3.0.1"
   }
 }
