@@ -12,6 +12,8 @@ npm install @cemalgnlts/mailjs
 
 ## **Sử dụng** 💻
 
+### **Chạy từ source code**
+
 - Đầu tiên, bạn cần clone repository về máy tính bằng lệnh sau hoặc tải về từ [đây](https://codeload.github.com/dennivan/gen-email-and-read-code-instagram/zip/refs/heads/main) 📥
 
    ```bash
@@ -29,3 +31,5 @@ npm install @cemalgnlts/mailjs
    ```bash
    node readCode.js
    ```
+
+### **[Tải xuống bản EXE](https://github.com/dennivan/gen-email-and-read-code-instagram/releases/)**

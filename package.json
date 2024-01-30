@@ -1,0 +1,13 @@
+{
+  "name": "get-email-and-read-code",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dennivan/gen-email-and-read-code-instagram.git"
+  },
+  "author": "dennivan",
+  "scripts": {
+    "getMail": "node getEmail.js",
+    "readCode": "node readCode.js"
+  }
+}
