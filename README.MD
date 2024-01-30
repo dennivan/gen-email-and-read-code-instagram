@@ -32,4 +32,4 @@ npm install @cemalgnlts/mailjs
    node readCode.js
    ```
 
-### **[Tải xuống bản EXE](https://github.com/dennivan/gen-email-and-read-code-instagram/releases/)**
+### **[Tải xuống bản executable](https://github.com/dennivan/gen-email-and-read-code-instagram/releases/)**
