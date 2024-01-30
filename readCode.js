@@ -20,9 +20,11 @@ async function main() {
             console.log('Code:', confirmationCode);
             mailjs.deleteMessage(firstMessageId);
         } else {
+            console.log('Mail:', userEmail);
             console.log('Chua nhan duoc ma.');
         }
     } else {
+        console.log('Mail:', userEmail);
         console.log('Email da het thoi gian.');
     }
 }
